@@ -1,0 +1,72 @@
+body{
+    background-color: black;
+    margin: 0;
+    font-family: 'Inconsolata', monospace;
+}
+
+.square{
+    width: 30%;
+    background: white;
+    padding-bottom: 30%;
+    margin: 1.666%;
+    float: left;
+    border-radius: 50%;
+    transition: background 0.7s;
+}
+
+#container{
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    line-height: 1.15;
+    padding: 15px 0; /*topbottom leftright*/
+    margin: 0;
+    color: white;
+    background: steelblue;
+}
+
+#colorDisplay{
+    font-size: 200%;
+}
+
+.selected{
+    color: white;
+    background: steelblue;
+}
+#stripe{
+    background: white;
+    height: 30px;
+    text-align: center;
+    color: black;
+}
+
+#message{
+    display: inline-block; /*pushing other blocks to the side*/
+    width: 20%;
+    color: steelblue; 
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+button{
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%; /*takes 100% of the containing element*/
+    font-weight: 700;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.420s;
+    outline: none;
+}
+
+button:hover{
+    color: white;
+    background: steelblue;
+}
